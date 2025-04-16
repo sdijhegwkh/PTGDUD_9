@@ -3,6 +3,7 @@ import './App.css';
 import Counter from './Counter';
 import TodoList from './TodoList';
 import ThemeToggle from './ThemeToggle';
+import ShoppingCart from './ShoppingCart'; 
 import { useSelector } from 'react-redux';  
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <hr />
       <TodoList />
       <ThemeToggle /> 
+      <hr />  
+      <ShoppingCart /> 
     </div>
   );
 }
